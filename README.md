@@ -50,6 +50,8 @@ DiffSynth-Studio is an external training dependency and must be installed from t
 
 The exact patched DiffSynth-Studio 2.1.9 source snapshot used by the experiments is preserved under [`vendor/diffsynth-studio-phydataset-2.1.9`](vendor/diffsynth-studio-phydataset-2.1.9/README.md). It includes the `uniform_full_timeline` video sampler that is absent from the official 2.1.9 wheel.
 
+The transferable step5275 LoRA adapter and the verified M1/M2 full-state checkpoint index are documented under [`artifacts/checkpoint-index`](artifacts/checkpoint-index/README.md). The adapter is stored with Git LFS; optimizer states remain on shared storage and are referenced by verified paths and SHA256 manifests.
+
 ## Data format
 
 Each accepted JSONL record contains a video path, Medium or Detailed prompt, and strict numeric supervision metadata. Gravity supervision uses:

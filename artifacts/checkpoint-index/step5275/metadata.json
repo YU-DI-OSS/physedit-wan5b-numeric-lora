@@ -1,0 +1,44 @@
+{
+  "fingerprint": {
+    "additional_epochs": 2,
+    "additional_optimizer_updates": 298,
+    "batch_size": 1,
+    "dataset_manifest_sha256": "e9add397113b975c1d8e723aaee475efe8af2f39c080fcab02f95f1d81b3f282",
+    "epochs": 1,
+    "expert": "ti2v5b",
+    "final_global_step": 5612,
+    "gradient_accumulation_steps": 4,
+    "learning_rate": 0.0001,
+    "lora_rank": 32,
+    "lr_schedule": "constant",
+    "metadata_sha256": "f2b8e056026669cd5ba9a3504127601f338d74638034e16405257b61c13b825e",
+    "model_manifest_sha256": "96f38705903db47095706f6544cd1eca795a8899ee48b3b508e9e2328f5c71b6",
+    "new_sampler_epoch": 0,
+    "new_sampler_position": 0,
+    "optimizer_updates": 3278,
+    "parent_global_step": 2334,
+    "records": 13109,
+    "repeated_exposures": 3,
+    "runner_sha256": "45151c3bf743dc2dde9fb509a54b525a38b75b1439fad58d7596b25fc14a87c7",
+    "sample_exposures": 13112,
+    "sampling_policy": "uniform_full_timeline_49_first_last",
+    "seed": 42,
+    "source_commit": "681c456a3e8cf9e17cf2cb9a35297718ed4270ca",
+    "source_manifest_sha256": "f555e71628824c8f790fb955fa119ff0e4818334d11b4f5e3072de72b9543596",
+    "stage_id": "wan5b_mixed13109_epoch1_v1",
+    "tail_microsteps": 2,
+    "unique_records": 13109,
+    "warm_continuation": true
+  },
+  "format": 1,
+  "progress": {
+    "epoch": 0,
+    "global_step": 5275,
+    "sampler": {
+      "dataset_length": 13112,
+      "epoch": 0,
+      "position": 11766,
+      "seed": 42
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "COMPLETE": {
+    "bytes": 3,
+    "sha256": "dc51b8c96c2d745df3bd5590d990230a482fd247123599548e0632fdbf97fc22"
+  },
+  "adapter.pt": {
+    "bytes": 161419778,
+    "sha256": "b145fae9ab8fbee4ddd40433488d44b0277174229e98504302818cd54717f77d"
+  },
+  "metadata.json": {
+    "bytes": 1485,
+    "sha256": "a9f32a641df78d307d51f7d0b79ec1a55217a0a95d029406ec0f50d83acfc806"
+  },
+  "training_state.pt": {
+    "bytes": 322967266,
+    "sha256": "e5e06eb5c397adeac22d5c03230d9558a2df822bf22d9d28b46898091cf4faab"
+  }
+}

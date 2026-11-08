@@ -25,6 +25,7 @@ monitor/
 *.jsonl
 *.jsonl.gz
 *.safetensors
+!artifacts/weights/*.safetensors
 *.pt
 *.pth
 *.bin
@@ -41,3 +42,7 @@ receipt.json
 status.json
 latest_report.json
 ALERT.json
+
+# Published checkpoint integrity manifests
+!artifacts/checkpoint-index/**/SHA256SUMS
+!artifacts/checkpoint-index/**/verification.json

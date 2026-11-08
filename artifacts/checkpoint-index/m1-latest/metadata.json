@@ -1,0 +1,36 @@
+{
+  "fingerprint": {
+    "dataset_manifest_sha256": "1ba18226f991fd1f9cd12c19c5a49fc9dfc2ad980712bb929e881d4f9abfeba6",
+    "derived_metadata_sha256": "48d931f9e8893aa913c43cbabef620fbf596a28a738976721fa50ab509a4e260",
+    "expert": "ti2v5b",
+    "formal_training_progress": true,
+    "gradient_accumulation_steps": 4,
+    "historical_t15_ids_excluded": 406,
+    "initialization_mode": "exact_fullstate_stage_transition",
+    "learning_rate": 2e-05,
+    "model_manifest_sha256": "96f38705903db47095706f6544cd1eca795a8899ee48b3b508e9e2328f5c71b6",
+    "previous_stage_ids_excluded": 39802,
+    "prompt_condition": "medium",
+    "records": 8000,
+    "sampling_policy": "seed42_single_rank_no_prefetch_m1_new_media_8000_v1",
+    "source_commit": "artifact-diffsynth2.1.9-formal-h3-m1-stage-transition-v1",
+    "source_prompt_revision": "30dc6f9058d7300dde7ea71753225c0e8efb7b1b",
+    "stage_id": "wan5b_h3final_v2_m1_new_media_8000_v1",
+    "transition_source_checkpoint": "/XYFS02/HDD_POOL/sysu_xdliang/sysu_xdliang_3/tianhaixin/phydataset_lora/runs/wan5b-h3final-v2-20261107T0630Z/m1/new-media-4000-v1/fullstate/step-00001000",
+    "transition_source_records": 4000,
+    "transition_source_stage_id": "wan5b_h3final_v2_m1_new_media_4000_v1",
+    "transition_source_step": 1000,
+    "world_size": 1
+  },
+  "format": 1,
+  "progress": {
+    "epoch": 0,
+    "global_step": 1,
+    "sampler": {
+      "dataset_length": 8000,
+      "epoch": 0,
+      "position": 4,
+      "seed": 42
+    }
+  }
+}

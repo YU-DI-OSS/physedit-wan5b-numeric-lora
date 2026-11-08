@@ -1,0 +1,31 @@
+{
+  "fingerprint": {
+    "dataset_manifest_sha256": "1ba18226f991fd1f9cd12c19c5a49fc9dfc2ad980712bb929e881d4f9abfeba6",
+    "derived_metadata_sha256": "bb1eed1857cee63706ff89ce2381ec3a4d54a1d9f04c9d93e8831a324f1fa171",
+    "expert": "ti2v5b_numeric",
+    "formal_training_progress": true,
+    "gradient_accumulation_steps": 4,
+    "historical_t15_406_excluded": true,
+    "initial_speed_numeric_supervision": false,
+    "learning_rate": 2e-05,
+    "model_manifest_sha256": "96f38705903db47095706f6544cd1eca795a8899ee48b3b508e9e2328f5c71b6",
+    "numeric_supervision": "unique_explicit_gravity_prompt_type0_scale25",
+    "prior_consumed_10219_excluded": true,
+    "prior_consumed_7678_excluded": true,
+    "prompt_condition": "medium",
+    "records": 22125,
+    "sampling_policy": "seed42_single_rank_no_prefetch_m2_a800_m1paths_v1",
+    "source_commit": "artifact-diffsynth2.1.9-numeric-stage-transition-v1",
+    "stage_id": "wan5b_h3final_v2_m2_a800_gravity_medium_m1paths_v1",
+    "transition_source_adapter_sha256": "1e1509fa261c5c75eb25dab370e8350ddd3ac597ecdc2d5eceb1bf854ccb1822",
+    "transition_source_checkpoint": "/XYFS02/HDD_POOL/sysu_xdliang/sysu_xdliang_3/tianhaixin/phydataset_lora/runs/wan5b-h3final-v2-20261107T0630Z/m2/a800-gravity-medium-prompt-v2/fullstate/step-00000636",
+    "transition_source_records": 2541,
+    "transition_source_stage_id": "wan5b_h3final_v2_m2_a800_gravity_medium_prompt_v2",
+    "transition_source_step": 636,
+    "transition_source_training_sha256": "7ddd5309a11ea8de1a0a0a1636fa49d5c26b0ae647ecd9565708fba51cd8b86a",
+    "world_size": 1
+  },
+  "format": 1,
+  "rank_aware": true,
+  "world_size": 1
+}
