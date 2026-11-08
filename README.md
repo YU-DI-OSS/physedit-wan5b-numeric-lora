@@ -48,6 +48,8 @@ pip install -r requirements.txt
 
 DiffSynth-Studio is an external training dependency and must be installed from the version used by your environment.
 
+The exact patched DiffSynth-Studio 2.1.9 source snapshot used by the experiments is preserved under [`vendor/diffsynth-studio-phydataset-2.1.9`](vendor/diffsynth-studio-phydataset-2.1.9/README.md). It includes the `uniform_full_timeline` video sampler that is absent from the official 2.1.9 wheel.
+
 ## Data format
 
 Each accepted JSONL record contains a video path, Medium or Detailed prompt, and strict numeric supervision metadata. Gravity supervision uses:
